@@ -1,0 +1,375 @@
+
+
+/* General styles */
+body {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: serif;
+    color: #fff;
+    background: #efe9dd;
+   
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-family:  cursive;
+    margin: 0;
+}
+
+h1{font-size: 70px;}
+h2 {font-size: 36px;letter-spacing:1px;}
+h3 {font-size: 24px;}
+img {width: 100%;}
+a,button{outline: 0 !important;}
+a:hover,a:focus{ text-decoration: none}
+
+
+/* Header */
+header{background: url("Vegetables.jpg");
+    width: 100%;
+background-size: 100% 100%; color: burlywood;
+overflow: hidden;
+box-shadow: 5px 10px 18px #888888;}
+
+
+/* Banner */
+.banner {
+    margin-top: 67px;
+}
+.banner > h3 {
+    font-size: 32px;
+    letter-spacing: 16px;
+    text-align: center;
+    color: #f1f1f1;
+}
+.banner h1 {
+    text-align: center;
+    color:#f1f1f1
+}
+.inner_banner {
+    margin-left: 170px;
+    margin-top: 180px;
+}
+.banner_content {
+    float: left;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 20px;
+    width: 330px;
+    padding-top:60px;
+}
+.banner_content p {
+    margin-bottom: 15px;
+}
+.stamp {
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+header .caption {
+    color: #d79c57;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-left: 28px;
+    text-transform: uppercase;
+}
+
+
+/* Footer */
+footer {
+    background: #454646 none repeat scroll 0 0;
+    padding-bottom: 42px;
+    width: 100%;
+}
+footer h4 {
+    font-family: serif;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+/* Basic Info */
+.contact_us, .subscribe {
+    margin-top: 38px;
+    overflow: hidden;
+}
+
+.social {
+    margin-top: 25px;
+}
+.social > li {
+    padding: 0 8px;
+}
+.social .fa {
+    background: #4d5154;
+    border-radius: 100%;
+    color: #bec5cd;
+    display: block;
+    font-size: 20px;
+    height: 45px;
+    padding-top: 13px;
+    text-align: center;
+    width: 45px;
+}
+.social .fa:hover,.social .fa:focus {
+    background: #616976;
+}
+.footer-copyright {
+    margin: 35px 0 45px;
+    font-size: 13px;
+    color:#fff;
+}
+.footer-copyright a{
+    font-weight: 700;
+    font-size: 15px;
+    color:#fff;
+    padding:0px 5px;
+}
+/* Contact Us and Subscribe */
+.contact_us > a, .subscribe p {
+    color: #85898d;
+    display: block;
+    line-height: 24px;
+    margin: 16px 0;
+}
+.contact_us a:hover,.contact_us a:focus {
+    text-decoration:underline;
+}
+address,.subscribe > p {
+    color: #85898d;
+    line-height: 24px;
+}
+
+.subscribe > p {
+    margin-bottom: 14px;
+    width: 250px;
+}
+
+
+#myBtnContainer{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+
+#recet{
+    margin-bottom: 10px;
+    height: 350px;
+}
+
+form{
+    width: 300px;
+    height: 340px;
+}
+
+img{
+    
+    width: 150px;
+    height: 180px;
+}
+#titre{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    color: brown;
+     box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 10px;
+}
+
+#cacher{
+    cursor: pointer;
+    background-color: #bc6543;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 3px;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+       box-shadow: 5px 10px 18px #888888; 
+    
+}
+#cacher:hover{
+    background-color: #604629;
+}
+
+.portfolio-item{
+  float: left;
+  display: none;
+}
+
+
+.show{
+  display: block;
+}
+
+.row{
+  margin-top: 20px;
+ overflow: hidden;
+    height: 100%; 
+}
+
+
+
+.btn1 {
+    
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #be9568;
+  cursor: pointer;
+ background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    border-radius: 5px;
+     box-shadow: 5px 10px 18px #888888;
+    font-weight: bold;
+}
+
+.btn1:hover {
+  background-color: #aa7c49;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+}
+
+.btn1.active {
+  background-color: #986f41;
+  color: white;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+
+
+/* media query for other devices */
+@media (max-width: 1199px) {
+   
+    #lock > h4 {
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+
+}
+
+@media (max-width: 991px) {
+    h2 {
+        font-size: 30px;
+    }
+    
+   
+
+    .inner_content {
+        width: 200px;
+    }
+    .forth_sec .flaticon {
+        margin-right: 15px;;
+    }
+
+    #lock > h2 {
+        font-size: 26px;
+    }
+
+    address ,.subscribe > p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 20px;
+    }
+    
+}
+
+    @media (max-width: 714px) {
+   
+        .row{
+            margin-left: 20px;
+            margin-right: 20px;
+            
+    
+}
+
+}
+    
+    @media (max-width: 575px) {
+   
+       form{
+           margin-left: auto;
+           margin-right: auto;
+            
+}
+
+}
+
+
+
+
+@media (max-width: 479px) {
+    h1 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+   
+    header .caption {
+        margin-left: 15px;
+    }
+    
+    form{
+           margin-left: auto;
+           margin-right: auto;
+            
+}
+
+  
+    .banner_content {
+    padding-top:20px;
+    }
+    
+   
+
+    footer {
+    padding-bottom: 12px;
+    padding-bottom: 10px;
+}
+footer h4 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+     address ,.subscribe > p {
+        font-size: 12px;
+        width: 100%;
+        line-height: 15px;
+    }
+.contact_us > a, .subscribe p {
+    line-height: 14px;
+    margin: 5px 0;
+}
+    
+   
+}
+    
+     @media (max-width: 575px) {
+   
+       form{
+           margin-left: auto;
+           margin-right: auto;
+            
+}
+
+}
+

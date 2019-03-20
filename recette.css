@@ -1,0 +1,117 @@
+body {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: serif;
+    color: #fff;
+    background-color: #efe9dd;
+     margin:0
+}
+
+
+
+
+.monTitre{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 5px 10px 18px #888888;
+   
+    
+}
+#imgrecette{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+   
+    margin-top: auto;
+     margin-top: auto;
+}
+.contenuText{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    display: block;
+    width: 800px;
+    text-align: left;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color: dimgray;
+    font-weight: 200;
+    font-family: serif;
+    border-radius: 5px;
+}
+
+
+#contenaire{
+     display: block;
+    width: 1000px;
+    height: 570px;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 30px;
+     box-shadow: 5px 10px 18px #888888;
+    background-color: whitesmoke;
+   
+    
+}
+
+
+#bloc{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#image{
+    width: 400px;
+    height: 450px;
+    margin: 5px;
+}
+#portion{
+    width: 300px;
+    height: 450px;
+    padding: 5px;
+    color: #986f41;
+     
+   
+}
+#retour{
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #be9568;
+  cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+     box-shadow: 5px 10px 18px #888888;
+    color: azure;
+
+}
+
+#retour:hover {
+  background-color:  #aa7c49;
+    color: azure;
+}
+
+#retour.active {
+  background-color: #986f41;
+  color: white;
+}
